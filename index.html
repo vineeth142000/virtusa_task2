@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CVR Home Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href=Style.css> 
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+            
+            
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a href="#" class="navbar-brand">CVRCE</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <span class="mr-auto"></span>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fa fa-home" aria-hidden="true"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="About.html" class="nav-link">
+              <i class="fa fa-info" aria-hidden="true"></i>
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contactUs.html" class="nav-link">
+              <i class="fa fa-address-card" aria-hidden="true"></i>
+              Contact Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#loginModal" class="nav-link" data-toggle="modal">
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="modal" id="loginModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Login</h3>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email"
+                  id="email"
+                />
+                <div class="form-group">
+                  <label for="password">
+                    Password
+                  </label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Enter Password"
+                    id="password"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-danger" data-dismiss="modal">X</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div
+        class="carousel slide"
+        id="car"
+        data-ride="carousel"
+        style="padding-top: 55px;"
+        data-interval="2000"
+      >
+        <div class="carousel-inner">
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#car" data-slide-to="0"></li>
+            <li data-target="#car" data-slide-to="1"></li>
+            <li data-target="#car" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-item active">
+            <img
+              src="main_block.jpg"
+              class="img-fluid"
+              style="height: 400px; width: 100%;"
+            />
+            <div class="carousel-caption">
+              <h3>Main Block</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="canteen.jpg"
+              class="img-fluid"
+              style="height: 400px; width: 100%;"
+            />
+            <div class="carousel-caption">
+              <h3>Canteen</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="library.jpg"
+              class="img-fluid"
+              style="height: 400px; width: 100%;"
+            />
+            <div class="carousel-caption">
+              <h3>Library</h3>
+            </div>
+          </div>
+        </div>
+        <a href="#car" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"> </span>
+        </a>
+        <a href="#car" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <!-- <a href="#car" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon">
+        </span>
+    </a>
+    <a href="#car" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a> -->
+    <br />
+    <div>
+        <h6><marquee class="text-success">NIRF!! rates CVR in the 101-105 group for the fourth time!!!</h6></marquee>
+    </div>
+    <div class="container" style="height: 150px;">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#notif" class="nav-link active" data-toggle="tab">
+            Notifications
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#news" class="nav-link" data-toggle="tab">
+            Latest News
+          </a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <li class="tab-pane active" id="notif">
+       
+          <p>Circular regarding break for M.Tech. I Year Students from July 6, 2020 to July 26, 2020</p>
+          <p>freshers academics starts from august</p>
+        </li>
+        <li class="tab-pane" id="news">
+         college fee notification for 2nd,3rd and 4th years.
+        </li>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card" style="width: 300px; float: left; margin: 10px;">
+        <div class="card-body">
+          <img id="ramen" src="it.gif" class="img-fluid" />
+        </div>
+        <div class="card-footer">
+          
+          <h3 id="msg"></h3>
+          <p class="text-muted text-justify text-muted">
+            The Department of Information Technology was started in the year 2001 with an initial intake of 60 B. Tech. students. Subsequently, the intake was increased to 180. The Department also offers an M.Tech. in Data Sciences with an intake of 18. The Department was accredited by NBA, AICTE in the year 2007 and reaccredited in the years 2013 and 2018. The Department is headed by Dr. Bipin Bihari Jayasingh.  All faculty members have an M. Tech. in Computer Science, with a minimum of about 4 years of teaching experience at the Assistant Professor level, which is an entry level requirement for recruitment to the department. The faculty consists of a good mix of individuals with industry and academic experience. The Department also has a high faculty retention rate.
+
+The Department offers courses to the students of IT as well as some subjects of specialization to other departments. For First Year students of all branches of Engineering, the Department offers the subjects “Problem Solving through C”, “Data Structures through C”,  “IT Workshop Laboratory”.  The Department has expertise in the areas of Software Engineering, Real Time Systems, Databases, Operating Systems, Computer Architecture, Embedded Systems, Distributed Systems, Scripting Languages, middleware technologies, Cloud Computing, Network Security, Big Data and IoT among various other subjects regularly offered by the Department.
+
+The Department has eight laboratory units consisting of 260 systems, catering to the B. Tech curriculum. The systems use standard licensed software as a college policy including open source.  </p>
+        </div>
+      </div>
+      <div class="card" style="width: 300px; float: left; margin: 10px;">
+        <div class="card-body">
+          <img id="noob" src="ece.jpg" class="img-fluid" />
+        </div>
+        <div class="card-footer">
+          <h3 id="msg1"></h3>
+          <p class="text-muted text-justify text-muted">
+            The Department of Electronics and Communication Engineering is one of the departments that started at the time of inception of CVR College of Engineering in 2001 with an intake of 60 B.Tech. students.  Expanding its horizons over the years, the department presently offers the B.Tech. program with an intake of 240, two M.Tech. programs with specializations in VLSI (intake 18), and Embedded Systems (intake 18), as well as Ph.D.  The department is accredited by the National Board of Accreditation.
+
+The department has well-equipped state-of-the-art laboratories for Electronic Devices & Circuits, Pulse & Digital Circuits, IC&ECAD, Basic Simulation, Analog & Digital Communications, Digital Signal Processing, Microwave & Optical Communications, Microprocessors and Microcontrollers.  Advanced research laboratories include VLSI Center of Excellence, Embedded Systems and Advanced Wireless and Communication laboratories.  Software available includes latest versions of MATLAB with several tool boxes, CADENCE complete suit, Xilinx and Co-design tools to name a few.  The combined commercial value of all this software exceeds a million dollars. 
+
+The strengths of the department are the specialized laboratoreis, senior professors, dynamic & young associate and assistant professors, industrious academic assistants, staff and meritorious students.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 300px; float: left; margin: 10px;">
+        <div class="card-body">
+          <img id="pro" src="mech.jpg" class="img-fluid" />
+        </div>
+        <div class="card-footer">
+          <h3 id="msg2"></h3>
+          <p class="text-muted text-justify text-muted">
+            The Department was started in the academic year 2011 with an intake of 60. Subsequently the intake was increased to 120 in 2013 and then to 240 in 2014.
+
+The Department is accredited by NBA for three years under Tier 1.
+
+The Department is organized in terms of three groups for academic purpose which is:
+
+Mechanical Design Group
+Thermal Engineering Group
+Production & Manufacturing Engineering
+The Department has 47 faculty members, a blend of experienced faculty from various reputed academic institutions like Osmania University and young postgraduates from IIT’s, NIT’s, Central Universities, BITS, OU, AU, and JNTUH who are guiding the Department in right perspective.
+
+Within a short span of time, the Department has been equipped with state and central laboratories with total outlay of 3-5 cores. Notably, we have CAD/CAM Lab with production machines like CNC Turning Centre and CNC Milling Centre and advanced software like Ansys CFD. The department has a Machine Tools lab with different types of high precision Lathes, Radial Drilling Machines, Box and Column type Drilling Machines. The department has Enterprise Development Cell (EDC) for training interested students in becoming Entrepreneurs. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron bg-warning" style="clear: both;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 align-self-center">
+            <p class="text-primary text-center h5">
+              &copy; copyrights 2020 CVR College of Engineering, All Rights Reserved
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460853988679!2d78.59506221435072!3d17.196418412812296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1592983064232!5m2!1sen!2sin"
+              width="300"
+              height="150"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Pacifico&family=Righteous&family=Roboto:wght@100&family=Ubuntu+Condensed&display=swap');
+
+
+.navbar-brand
+{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color:white !important;
+}
+.nav-link:hover
+{
+    color: lightskyblue !important;
+}
